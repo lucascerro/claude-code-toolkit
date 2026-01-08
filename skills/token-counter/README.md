@@ -29,7 +29,7 @@ cd .claude/skills/token-counter && uv sync
 
 ### Optional: Download Qwen3 tokenizer for offline use
 
-The `--qwen` flag works without this (downloads on first use), but for offline/faster access:
+*The `--qwen` flag works without this (downloads on first use)*, but if you want to preemptively download the Qwen tokenizer:
 
 ```bash
 cd ~/.claude/skills/token-counter
@@ -41,6 +41,8 @@ tokenizer.save_pretrained('./qwen_tokenizer')
 ```
 
 ## Usage
+
+More detailed examples of usage can be found in the [SKILL.md](SKILL.md) file (this was made to be used by Claude Code, as a skill), but here are some examples
 
 ```bash
 # Direct text
