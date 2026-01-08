@@ -1,5 +1,5 @@
 ---
-description: Count tokens in text using tiktoken or Qwen3 tokenizer. Use when estimating API costs or analyzing text length for LLM context windows.
+description: Count tokens in text using tiktoken or Qwen3 tokenizer. Use when user asks for precise token calculations, e.g. "How many tokens are in {file}?", "Count the amount of tokens in the description column of this database entry", "For every line in {file}, tell me how many tokens there are", etc.
 allowed-tools: Bash, Read
 ---
 
