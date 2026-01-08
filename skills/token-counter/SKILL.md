@@ -1,6 +1,6 @@
 ---
 description: Count tokens in text using tiktoken or Qwen3 tokenizer. Use when user asks for precise token calculations, e.g. "How many tokens are in {file}?", "Count the amount of tokens in the description column of this database entry", "For every line in {file}, tell me how many tokens there are", etc.
-allowed-tools: Bash, Read
+allowed-tools: Bash
 ---
 
 # Token Counter
@@ -29,7 +29,7 @@ Common `--model` values:
 
 ## Usage
 
-The script reads from **stdin** or a **positional argument**. Compose with any command via pipes. Avoid using the Read tool beforehand, as that will just bloat the context window.
+The script reads from **stdin** or a **positional argument**. Compose with any command via pipes.
 
 ### Direct text
 ```bash
