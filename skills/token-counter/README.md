@@ -23,6 +23,8 @@ cd ~/.claude/skills/token-counter && uv sync
 
 ### Project-local install
 
+Note that the [SKILL.md](SKILL.md) file has instructions optimized for a global installation. Project-specific installs might not work properly.
+
 ```bash
 git clone https://github.com/lucascerro/claude-code-toolkit.git /tmp/claude-code-toolkit
 mkdir -p .claude/skills
