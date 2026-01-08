@@ -1,0 +1,2 @@
+#!/bin/bash
+exec ~/.claude/skills/token-counter/.venv/bin/python ~/.claude/skills/token-counter/count_tokens.py "$@"
