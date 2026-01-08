@@ -4,7 +4,11 @@ Minimal, composable token counter for Claude Code. Supports tiktoken (Claude/GPT
 
 ## Installation
 
-Requires [uv](https://docs.astral.sh/uv/).
+Requires [uv](https://docs.astral.sh/uv/), a fast Python package manager. uv handles virtual environment creation and dependency installation automatically via `uv sync`.
+
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
 **Note:** This skill requires Python packages (~150MB for venv). The optional Qwen tokenizer adds ~16MB.
 
