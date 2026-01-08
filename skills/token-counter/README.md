@@ -6,6 +6,8 @@ Minimal, composable token counter for Claude Code. Supports tiktoken (Claude/GPT
 
 Requires [uv](https://docs.astral.sh/uv/).
 
+**Note:** This skill requires Python packages (~150MB for venv). The optional Qwen tokenizer adds ~16MB.
+
 ### Global install (all projects)
 
 ```bash
