@@ -33,7 +33,7 @@ cd .claude/skills/token-counter && uv sync
 
 ### Optional: Download Qwen3 tokenizer for offline use
 
-*The `--qwen` flag works without this (downloads on first use)*, but if you want to preemptively download the Qwen tokenizer:
+**The `--qwen` flag works without this (downloads on first use)**, but if you want to preemptively download the Qwen tokenizer:
 
 ```bash
 cd ~/.claude/skills/token-counter
